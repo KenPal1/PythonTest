@@ -1,0 +1,147 @@
+.bg {
+    height: 1024px;
+    background-color: var(--white_a700);
+    background-image: url('../image/BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 186px 56px;
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+        padding: 20px;
+    }
+}
+
+.section {
+    background-color: var(--white_a700);
+    box-shadow: var(--shadow-xs);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1072px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 76px 56px;
+    border-radius: var(--radius-xl);
+    @media only screen and (max-width: 1050px) {
+        padding: 20px;
+    }
+}
+
+.section_content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.section_content_image-column {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 70%;
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.section_content_text-row {
+    display: flex;
+    align-items: start;
+}
+
+.section_content_text-column {
+    margin-top: 26px;
+    gap: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: start;
+}
+
+.section_content_image {
+    margin: auto;
+    height: 242px;
+    width: 82%;
+    object-fit: contain;
+}
+
+.section_content_heading {
+    margin: auto;
+    text-align: center;
+    font-weight: 600 !important;
+    line-height: 42px;
+}
+
+.section_content_heading-span {
+    color: var(--red_a400);
+}
+
+.section_content_heading-span-1 {
+    color: var(--black_900);
+}
+
+.section_content_divider {
+    height: 500px;
+    align-self: center;
+    width: 2%;
+    object-fit: contain;
+}
+
+.section_form {
+    gap: 24px; /* Reduced gap for tighter spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensure full width */
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;
+    }
+}
+
+.section_form_title {
+    color: var(--black_900) !important;
+    text-align: center;
+    margin-bottom: 24px; /* Center and space out the title */
+}
+
+.section_form_fields {
+    display: block; /* Change from flex to block to allow the input fields to occupy full width */
+    width: 100%; /* Ensure full width */
+}
+
+.section_form_input--username,
+.section_form_input--password {
+    margin-left: 30px;
+    width: 100%; /* Ensure inputs are 100% width */
+    max-width: 500px; /* Limit the maximum width for large screens */
+    color: var(--black_900_33) !important;
+    padding-left: var(--space-4xl);
+    background-color: var(--gray_200) !important;
+    box-shadow: 0 7px 4px 0 var(--black_900_33) !important;
+    border-radius: 24px !important;
+    height: 50px; /* Fixed height for consistency */
+}
+
+.forgot-password-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section_form_button--login {
+    width: 100%; /* Ensure button takes full width */
+    max-width: 380px; /* Match the max-width of the inputs */
+    color: var(--black_900_7f) !important;
+    margin-top: 20px;
+    margin-left: auto; /* Center the button horizontally */
+    margin-right: auto; /* Center the button horizontally */
+    padding-left: 34px;
+    padding-right: 34px;
+    background-color: var(--blue_a100_6b) !important;
+    height: 74px;
+    border-radius: 36px !important;
+}

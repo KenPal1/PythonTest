@@ -1,0 +1,247 @@
+.ui.input.round {
+    border-radius: var(--radius-xs);
+}
+
+.ui.input.size-xs {
+    height: 74px;
+    padding-right: var(--space-xs);
+    font-size: 27px;
+}
+
+.ui.input.fill.gray_200 {
+    background-color: var(--gray_200);
+    box-shadow: var(--shadow-sm);
+    color: var(--black_900_33);
+}
+
+.ui.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+    font-family: Causten-round;
+    font-size: 27px;
+    font-weight: 500;
+    background-color: var(--gray_200);
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius-xs);
+}
+
+.ui.button.square {
+    border-radius: 0px;
+}
+
+.ui.button.round {
+    border-radius: var(--radius-4xl);
+}
+
+.ui.button.size-xs {
+    height: 42px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 20px;
+}
+
+.ui.button.size-sm {
+    height: 44px;
+    font-size: 25px;
+}
+
+.ui.button.size-lg {
+    height: 74px;
+    padding-left: var(--space-9xl);
+    padding-right: var(--space-9xl);
+    font-size: 35px;
+}
+
+.ui.button.fill.blue_a100_6b {
+    background-color: var(--blue_a100_6b);
+    color: var(--black_900_7f);
+}
+
+.ui.button.fill.blue_a100 {
+    background-color: var(--blue_a100);
+    box-shadow: var(--shadow-md);
+    color: var(--black_900);
+}
+
+.ui.button.outline.blue_a100 {
+    color: var(--black_900);
+    border: 5px solid var(--blue_a100);
+}
+
+.ui.button.fill.indigo_200 {
+    background-color: var(--indigo_200);
+    color: var(--white_a700);
+}
+
+.ui.button.fill.white_a700 {
+    background-color: var(--white_a700);
+    color: var(--black_900);
+}
+
+.ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color: var(--black_900_7f);
+    font-size: 35px;
+    font-weight: 600;
+    background-color: var(--blue_a100_6b);
+    min-width: 220px;
+    border-radius: var(--radius-md);
+    @media only screen and (max-width: 1050px) {
+        font-size: 33px;
+        margin-right: 0px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 31px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.ui.text.size.textxs {
+    font-family: Roag;
+    font-size: 60px;
+    font-weight: 400px;
+    font-style: normal;
+    @media only screen and (max-width: 1050px) {
+        font-size: 33px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 31px;
+    }
+}
+
+.curehealth-1.ui.text.size-textxs {
+    font-size: 15px;
+    color: var(--black_900);
+    font-family: Roag;
+}
+
+.ui.text {
+    font-size: 30px;
+    color: var(--black_900);
+    font-family: Roag;
+}
+
+.ui.heading.size-headingxs {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.ui.heading.size-headingsm {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.ui.heading.size-headingmd {
+    font-size: 21px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.ui.heading.size-headinglg-name {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: bold;
+    @media only screen and (max-width: 1050px) {
+        font-size: 23px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 21px;
+    }
+}
+
+.ui.heading.size-headinglg-logout {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: bold;
+    @media only screen and (max-width: 1050px) {
+        font-size: 23px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 21px;
+    }
+}
+
+.ui.heading.size-headingxl {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: bold;
+    @media only screen and (max-width: 1050px) {
+        font-size: 28px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 26px;
+    }
+}
+
+.ui.heading.size-heading2xl {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: bold;
+    @media only screen and (max-width: 1050px) {
+        font-size: 30px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 28px;
+    }
+}
+
+.ui.heading.size-heading3xl {
+    font-size: 33px;
+    font-weight: 700;
+    font-style: bold;
+    @media only screen and (max-width: 1050px) {
+        font-size: 31px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 29px;
+    }
+}
+
+.ui.heading.size-heading4xl {
+    font-size: 34px;
+    font-weight: 700;
+    font-style: bold;
+    @media only screen and (max-width: 1050px) {
+        font-size: 32px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 30px;
+    }
+}
+
+.ui.heading.size-heading5xl {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: bold;
+    @media only screen and (max-width: 1050px) {
+        font-size: 38px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 36px;
+    }
+}
+
+.ui.heading {
+    color: var(--black_900_7f);
+    font-family: Raog;
+}
